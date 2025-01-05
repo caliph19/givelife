@@ -1,0 +1,215 @@
+.contact-page{
+    width: 100%;
+    height: 50vh;
+    background: rgba(37, 42, 52, 0.70);
+    background-position: bottom;
+}
+.contact-page-img{
+    width: 720px;
+    height: 50VH;
+    background-image: url(../images/1.png);
+}
+.contact-part2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.contact-part2-center{
+    width: 85%;
+    height: 80vh;
+}
+.contact-part2-text{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+}
+.contact-part2-heading1{
+    color: #252A34;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px; /* 140% */
+    text-transform: capitalize;
+}
+.contact-part2-heading2{
+    color: #252A34;
+    font-family: Playfair Display;
+    font-size: 29.25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.5px;
+    text-transform: capitalize;
+}
+.contact-part2-form{
+    width:100% ;
+    gap: 7%;
+    display: flex;
+    align-items: flex-end;
+
+}
+.contact-part2-form-left{
+    width: 60%;
+    height: 60vh;
+}
+.contact-row1{
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    gap: 6%;
+}
+.contact-name{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-name-title{
+    height: 4vh;
+    
+}
+.contact-name-input{
+    height: 6vh;
+    
+}
+.contact-name-input input{
+    width: 98%;
+    height: 6vh;
+    outline: none;
+    background: #EDF7F5;
+    border: 0.75px solid #D9D7D7;
+    padding-left: 10px;
+}
+
+.contact-row3{
+    height: 38vh;
+    width: 100%;
+    display: flex;
+}
+.contact-name-massage{
+    width: 100%;
+    outline: none;
+}
+.contact-massage{
+    width: 100%;
+    display: flex;
+    height: 36vh;
+    flex-direction: column;
+}
+.contact-name-massage textarea{
+    width: 100%;
+    outline: none;
+    height: 28vh ;
+    background: #EDF7F5;
+    padding-left: 10px;
+    border: 0.75px solid #D9D7D7;
+}
+.contact-name-title3{
+    height: 6vh;
+}
+.contact-part2-form-right{
+    width: 33%;
+    height: 56vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.75px solid #D9D7D7;
+    background: #EDF7F5;
+}
+.contact-part2-form-right-center{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-part2-form-right-heading1{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    color: #252A34;
+    font-family: Playfair Display;
+    font-size: 29.25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37.5px;
+    text-transform: capitalize;
+}
+.contact-part2-form-right-heading2{
+    width: 100%;
+    height: 14vh;
+    color: #666;
+    font-family: Montserrat;
+    font-size: 10.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    
+}
+.contact-part2-form-right-heading3{
+    width: 100%;
+    height: 23vh;
+}
+.contact-heading3-p1{
+    width: 90%;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+.contact-heading3-p2{
+    width: 90%;
+    height: 5vh;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+.contact-heading3-p3{
+    width: 90%;
+    height: 8vh;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+.contact-last-button button{
+    display: flex;
+    width: 124.5px;
+    height: 36px;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 7.5px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    background: #219D80;
+    border: none;
+}
+.contact-last-button button:hover {
+    transform: scale(1.1);
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #219D80;
+    color: #219D80;
+}

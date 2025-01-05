@@ -1,0 +1,228 @@
+.popup-main{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    background-color: transparent;
+    position: relative;
+    top: 0;
+    left: 40%;
+
+}
+.popup-center{
+    width: 865px;
+    height: 150vh;
+    background: #EDF7F5;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.popup-center-bottom{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+}
+.popup-text-center{
+    width: 90%;
+    height: 10vh;
+    font-family: Playfair Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    text-transform: capitalize;
+    border-bottom: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.popup-close-icon-place{
+    width: 100%;
+    height: 12vh;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 17px;
+}
+.popup-part2{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.popup-close-icons {
+    width: 5%;
+    font-size: 21px;
+}
+.popup-col2{
+    width: 90%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+.popup-col2 button{
+    width: 35px;
+height: 40px;
+background: #219D80;
+border: none;
+color: #fff;
+}
+.popup-col2 input{
+    height: 37px;
+    width: 170px;
+    outline: none;
+}
+#popup-btn2{
+    width: 223px;
+    background: #219D80;
+    margin-left: 5px;
+    border: 1px solid #219D80;
+}
+.popup-col3{
+    width: 90%;
+    height: 11vh;
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+
+}
+.col3-btn1 button{
+    padding: 14px 22px;
+    justify-content: center;
+    align-items: center;
+    background: #219D80;
+    color: #fff;
+    border: #219D80;
+}
+.col3-btn2 button{
+    display: inline-flex;
+    padding: 12px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #219D80;
+    background: #219D80;
+}
+.popup-col4{
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.popup-col4-heading1{
+    height: 7vh;
+    font-family: Playfair Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px; /* 132% */
+    text-transform: capitalize;
+}
+.popup-col5{
+    width: 90%;
+    height: 10vh;
+    border-bottom: 1px solid gray;
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 25px;
+    font-style: normal;
+    display: flex;
+    font-weight: 700;
+    line-height: 33px;
+    text-transform: capitalize;
+    align-items: center;
+}
+.popup-col6{
+    width: 90%;
+    height: 70vh;
+}
+.popup-col6-row1{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: end;
+    column-gap: 10%;
+
+}
+.popup-col6-row1 input{
+    height: 7vh;
+    width: 45%;
+    display: flex;
+    outline: none;
+    background: #EDF7F5;
+    border: 0.75px solid #D9D7D7;
+    padding-left: 20px;
+}
+.popup-col6-row2{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+
+}
+.popup-col6-row2 input{
+    height: 7vh;
+    width: 100%;
+    outline: none;
+    background: #EDF7F5;
+    border: 0.75px solid #D9D7D7;
+    padding-left: 20px;
+}
+.popup-col6-row3{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+.popup-col6-row3 textarea{
+    height: 7vh;
+    width: 100%;
+    height: 25vh;
+    outline: none;
+    background: #EDF7F5;
+    border: 0.75px solid #D9D7D7;
+}
+.popup-col6-row4{
+    width: 100%;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+
+}
+.popup-col6-row4 button{
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    background: #219D80;
+    border: none;
+    color: #FFF;
+}
+.popup-col6-row5{
+    width: 100%;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+
+}
+.popup-col6-row5 button{
+    display: inline-flex;
+    width: 100%;
+    color: #219D80;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    display: flex;
+    justify-content: center;
+    border: 2px solid #219D80;
+    background: #FFF;
+}

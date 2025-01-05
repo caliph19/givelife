@@ -1,0 +1,402 @@
+.bg2-top{
+    width: 100%;
+    height: 50vh;
+    background: rgba(37, 42, 52, 0.70);
+}
+.bg2-image1{
+    background-image: url('../images/1.png');
+    width: 720px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: transparent;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 20px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+
+
+
+ .bg2-image1-center{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+ }
+.about-part5{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-part5-center{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.about-part5-center-heading{
+    color: #252A34;
+    font-family: Playfair Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: capitalize;
+    height: 12vh;
+}
+.about-part5-center-images1{
+    height: 42vh;
+    column-gap: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#set-about-img{
+    width: 330px;
+    height: 40vh;
+}
+.about-part5-center-images2{
+    height: 42vh;
+    column-gap: 10px;
+}
+
+#set-about-img2{
+    width: 245px;
+    height: 40vh;
+}
+.about-part3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-part3-main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+.about-heading1{
+    color: #252A34;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: capitalize;
+    position: relative;
+    display: flex;
+}
+.about-heading1-center{
+    width: 12%;
+    display: flex;
+     justify-content: center;
+}
+.about-heading1 p:before{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 1px;
+    background-color: #252A34;
+    left: 60px;
+    top: 48%;
+    position: absolute;
+}
+.about-heading2{
+    color: #252A34;
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: capitalize;
+    height: 12vh;
+    display: flex;
+}
+.about-heading2-center{
+    width: 19.5%;
+    display: flex;
+    height: 11vh;
+    justify-content: center;
+}
+.about-part3-cards{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.about-part3-cards-1{
+    width: 32%;
+    height: 62vh;
+    background: #219D80;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-part3-cards-1-center{
+    width: 90%;
+
+}
+.about-part3-card-detail1{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    height: 9vh;
+    text-transform: capitalize;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.about-part3-card-detail2{
+    color: #EEE;
+    font-family: Montserrat;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.about-part3-card-detail3{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+    height: 11vh;
+    display: flex;
+    align-items: end;
+}
+.about-part3-card-detail4{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+}
+.about-part3-card-icon1{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+.about-part3-card-icon1 button{
+    width: 90px ;
+    height: 90px;
+    border: none;
+    background-color: #EDF7F5;
+    border-radius: 50px;
+    font-size: 55px;
+    color: #219D80;
+}
+
+
+
+.about-part3-cards-2{
+    width: 32%;
+    height: 66vh;
+    background: #EDF7F5;
+    display: flex;
+    justify-content: center;
+}
+.about-part3-cards-2-center{
+    width: 90%;
+}
+.about-part3-card2-detail1{
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    height: 9vh;
+    text-transform: capitalize;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.about-part3-card2-detail2{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.about-part3-card2-detail3{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+    height: 11vh;
+    display: flex;
+    align-items: end;
+}
+.about-part3-card2-detail4{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+
+.about-part3-card2-detail5{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+.about-part3-card2-icon1{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+
+
+}
+.about-part3-card2-icon1 button{
+    width: 90px ;
+    height: 90px;
+    border: none;
+    background-color: #fff;
+    border-radius: 50px;
+    font-size: 55px;
+    color: #219D80;
+}
+.about-part3-cards-3{
+    width: 32%;
+    height: 70vh;
+    background: #EDF7F5;
+    display: flex;
+    justify-content: center;
+}
+.about-part3-cards-3-center{
+    width: 90%;
+}
+
+.about-part3-card3-icon1{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+.about-part3-card3-icon1 button{
+    width: 90px ;
+    height: 90px;
+    border: none;
+    background-color: #fff;
+    border-radius: 50px;
+    font-size: 55px;
+    color: #219D80;
+}
+.about-part3-card3-detail1{
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    height: 9vh;
+    text-transform: capitalize;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.about-part3-card3-detail2{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.about-part3-card3-detail3{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+    height: 11vh;
+    display: flex;
+    align-items: end;
+}
+.about-part3-card3-detail4{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+
+.about-part3-card3-detail5{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}

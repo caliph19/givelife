@@ -1,0 +1,221 @@
+.faq-main{
+    width: 100%;
+    height: 50vh;
+    background: rgba(37, 42, 52, 0.70);
+}
+.faq.left{
+    width: 720px;
+    height: 50VH;
+    background-image: url(../images/1.png);
+}
+.faq-part1-right {
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.faq-part1-right-center{
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+.MuiAccordionDetails-root.css-ta84vm-MuiAccordionDetails-root  {
+    background-color:  #cfe7e2 ; 
+}
+div#panel1d-header {
+    background-color: #cfe7e2;
+}
+#wq {
+    color: #252A34;
+    font-family: Playfair Display;
+    font-size: 15.75px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24.75px; /* 132% */
+    text-transform: capitalize;
+}
+.faq-main-gap{
+    height: 8vh;
+    width: 100%;
+    background-color: #fff;
+}
+.faq-part1-center{
+    width: 80%;
+    display: flex;
+}
+.faq-part1{
+    width: 100%;
+    height: 100vh;
+    background: #EDF7F5;
+    display: flex;
+    justify-content: center;
+}
+
+.faq-part1-text{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.faq-part1-heading1{
+    color: #252A34;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px; /* 140% */
+    text-transform: capitalize;
+}
+
+.faq-part1-heading1 p:before{
+    content: '';
+    display: block;
+    width: 90px;
+    height: 1px;
+    background-color: #252A34;
+    left: 158px;
+    top: 5%;
+    position: absolute;
+
+}
+.faq-part1-heading2{
+    color: #252A34;
+    font-family: Playfair Display;
+    font-size: 29.25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.5px;
+    text-transform: capitalize;
+}
+.faq-left-img{
+    background-image: url(../images/9.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 330px;
+    height: 320.25px;
+    border: 10px solid #c4e5de;
+    background-color: antiquewhite;
+}
+.faq-part2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.faq-center{
+    width: 80%;
+    height: 70vh;
+}
+.faq-part2-heading{
+    height: 25vh;
+    width: 100vh;
+}
+.faq-part2-heading1{
+    color: #252A34;
+    font-family: Playfair Display;
+    font-size: 29.25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37.5px;
+    text-transform: capitalize;
+    height: 9vh;
+}
+.faq-part2-heading2{
+    color: #555;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+    text-transform: capitalize;
+}
+.faq-part2-card{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.faq-part2-card1{
+width: 312px;
+    height: 250px;
+    flex-shrink: 0;
+    background: #EDF7F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.faq-part2-card2{
+width: 312px;
+    height: 250px;
+    flex-shrink: 0;
+    background: #EDF7F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.faq-part2-card3{
+width: 312px;
+    height: 250px;
+    flex-shrink: 0;
+    background: #EDF7F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.faq-part2-card-heading1{
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faq-part2-card-heading1 button{
+    width: 70px;
+    height: 70px;
+    border: 4px solid #219D80;
+    border-radius: 35px;
+}
+#set-faq-icon{
+    font-size: 40px;
+    color: #219D80;
+}
+.faq-part2-card-heading2{
+    height: 8vh;
+    width: 100%;
+    color: #252A34;
+text-align: center;
+font-family: Playfair Display;
+font-size: 18.75px;
+font-style: normal;
+font-weight: 700;
+line-height: 24.75px; /* 132% */
+text-transform: capitalize;
+}
+.faq-part2-card-heading3{
+    height: 14vh;
+    width: 100%;
+    color: #555;
+text-align: center;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 150% */
+text-transform: capitalize;
+}

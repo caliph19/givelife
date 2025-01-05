@@ -1,0 +1,103 @@
+#home-top-slider{
+    width: 100%;
+    height: 100vh;
+}
+.h-slides{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #40444d;
+    /* background-image: url('../images/cha2.jpg');
+    background-position: center;
+    background-size: cover; */
+
+}
+.h-heading1{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+    text-transform: capitalize;
+    height: 7vh;
+    position: relative;
+}
+.h-heading1 p:before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #FFF;
+    left: 145px;
+    top: 32%;
+    position: absolute;
+}
+
+.h-heading1 p::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #FFF;
+    right: 145px;
+    top: 32%;
+    position: absolute;
+}
+.h-heading2{
+    color: #FFF;
+    /* H2 */
+    text-align: center;
+    font-size: 39px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: capitalize;
+    line-height: 50px; /* 128.205% */
+    height: 17vh;
+}
+.h-heading3{
+    background-image: url(../images/cha16.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 29vh;
+    width: 13%;
+    border: 2px solid white;
+    border-radius: 98px;
+}
+.h-heading4{
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: capitalize;
+ 
+}
+.h-heading5{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: capitalize;
+    height: 7vh;
+}
+.h-heading6{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    text-transform: capitalize;
+}

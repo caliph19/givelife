@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.card-component-main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-component-center{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.Cardcomponent-heading1{
+    color: #252A34;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: capitalize;
+    position: relative;
+    display: flex;
+}
+.Cardcomponent-heading1-center{
+    width: 16%;
+    display: flex;
+    justify-content: start;
+}
+.Cardcomponent-heading1 p:before{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 1px;
+    background-color: #252A34;
+    left: 132px;
+    top: 48%;
+    position: absolute;
+
+}
+.Cardcomponent-heading2{
+    color: #252A34;
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: capitalize;
+    height: 18vh;
+    display: flex;
+}
+.Cardcomponent-heading2-center{
+    width: 35%;
+    display: flex;
+    justify-content: start;
+}
+.Cardcomponent-heading3{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    
+}
+.cardcomponent-heading3-center{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-icon1{
+    width: 27%;
+    height: 45vh;
+    background-color: #edf7f5;
+    display: flex;
+    flex-direction: column;
+}
+.card-icon1:hover{
+    transition: 0.3s all ease-in-out !important;
+    transform: scale(1.1) !important;
+    cursor: pointer;
+    color: #fff !important;
+}
+.card-icon2:hover{
+    transition: 0.3s all ease-in-out !important;
+    transform: scale(1.1) !important;
+    cursor: pointer;
+    color: #fff !important;
+}
+.card-icon3:hover{
+    transition: 0.3s all ease-in-out !important;
+    transform: scale(1.1) !important;
+    cursor: pointer;
+    color: #fff !important;
+}
+.card-icon4:hover{
+    transition: 0.3s all ease-in-out !important ;
+    transform: scale(1.1) !important;
+    cursor: pointer;
+    color: #fff !important;
+}
+.card-icon{
+    height: 20vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: 80px;
+    color: #219D80;
+}
+.card-number{
+    color: #252A34;
+    font-family: Nunito;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-detail{
+    color: #555;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+}
+.card-icon2{
+    width: 22%;
+    height: 45vh;
+    background-color: #edf7f5;
+    display: flex ;
+    flex-direction: column;
+}
+.card-icon3{
+    width: 22%;
+    height: 45vh;
+    background-color: #edf7f5;
+    display: flex ;
+    flex-direction: column;
+}
+.card-icon4{
+    width: 22%;
+    height: 45vh;
+    background-color: #edf7f5;
+    display: flex ;
+    flex-direction: column;
+}

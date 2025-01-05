@@ -1,0 +1,200 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.active{
+    color: white;
+}
+.nav1{
+    width: 100%;
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    position: fixed;
+    z-index: 111;
+}
+.third-two{
+    width: 52%;
+}
+.third-two button:hover{
+    background-color: transparent;
+    border: 1px solid #219D80;
+    transition: 0.3s all ease-in-out;
+}
+.text1{
+    display: flex;
+    font-size: 57px;
+    align-items: center;
+    height: 45vh;
+    justify-content: end;
+    color: white;
+    flex-direction: column;
+}
+.logo1{
+    width: 31%;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+}
+.nav1.active {
+    background: rgba(37, 42, 52, 0.70);
+    backdrop-filter: blur(2px);
+
+}    
+.list1{
+    width: 41%;
+}
+.list1 ul li{
+    width: 87%;
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 13px;
+    text-decoration: none;
+    color: #FFF;
+}
+.list1 ul{
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    font-size: 20px;
+    width: 83%;
+    font-family: Montserrat;
+
+    
+}
+#dropdown-basic-button{
+    background-color: transparent;
+    border: none;
+    color: rgb(164 172 181);
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #FFF!important;
+  }
+.nav1 a:hover{
+    transform: scale(1.1);
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+.header-third{
+    width: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-third-center{
+    display: flex;
+    width: 65%;
+    align-items: center;
+    justify-content: space-around;
+}
+#cars-nav{
+    background: transparent;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+.third-two button{
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    height: 36px;
+    background: #219D80;
+    border: none;
+    color: white;
+}
+
+.third-three button{
+    width: 47px;
+    height: 35px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    background-color: transparent;
+
+}
+#set-logo1{
+    width: 111.628px;
+    height: 23.88px;
+}
+
+
+
+
+
+#set-header-dropdown{
+    width: 100%;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 15px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+ /* Important for vertical align on mobile phones */
+  }
+  .dropbtn i{
+    padding-left: 10px;
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: transparent;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    color: #219D80 !important;
+    min-width: 105px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    transform: scale(1.1);
+    transition: 0.3s all ease-in-out !important;
+
+
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
